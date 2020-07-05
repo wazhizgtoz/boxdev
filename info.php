@@ -1,3 +1,3 @@
-// Function PHP for to test PHP instalation
+// Function PHP for to test a PHP instalation
 
 phpinfo();
