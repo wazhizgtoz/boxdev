@@ -13,3 +13,15 @@
     </head>
 
     <body>
+    
+    <header>
+        <nav>
+            <menu>
+                <ul>
+                <li>Home</li>
+                <li>Serviços</li>
+                <li>Contato</li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
