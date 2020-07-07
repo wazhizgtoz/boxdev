@@ -22,7 +22,7 @@ include_once 'includes/header.php';
             </tbody>
         </table>
         <br>
-        <a href="" class = 'btn'>Adicionar opção</a>
+        <a href="add_opcao.php" class = 'btn'>Adicionar opção</a>
     </div>
 </div>
 
