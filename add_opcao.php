@@ -13,7 +13,7 @@ include_once 'includes/header.php';
             <label for="opcao">Opcao</label>
         </div>
         <button type="submit" class="btn">Cadastrar</button>
-        <a href="index.php" class="btn blue">Listar opções</a>
+        <a href="opcao.php" class="btn blue">Listar opções</a>
     </form>
       
     </div>
