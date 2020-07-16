@@ -3,16 +3,16 @@
 
     
     <footer>
-        <section>
+        <div class='s12 m6 push-m3'>
             <h3>Contato</h3>
             <p>Phone: +55 (98) 9 8701-8860</p>
-        </section>
+        </div>
 
-        <section>
-            <h3>Endereço</h3>
+        <div class='s12 m6 push-m3'>
+            <h4>Endereço</h4>
             <p>Quadra 40 Rua 10 s/n Centro São Luis Ma</p>
             <p>Cep: 65.065-000 </p>
-        </section>
+        </div>
     </footer>
 
 

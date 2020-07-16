@@ -1,14 +1,14 @@
 <?php
-// Create connection to Oracle
-$conn = oci_connect('cardap', 'cardap', 'localhost/XE');
-if (!$conn) {
-   $m = oci_error();
-   echo $m['message'], "\n";
-   exit;
-}
-else {
-   print "Connected to Oracle!";
-}
-// Close the Oracle connection
-oci_close($conn);
+// Conexão com banco de dados
+
+$servername = "192.168.1.10";
+$username = "root";
+$password = "1234";
+$db_name = "cardap";
+
+   $connect = mysqli_connect($servername, $username, $password, $db_name);
+      if (mysqli_connect_error()):
+         echo "Erro na conexão:".mysqli_connect_error();
+      endif;
+
 ?>
