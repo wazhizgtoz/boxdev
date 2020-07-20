@@ -16,10 +16,10 @@
     
     <header>
       <nav>
-        <div class="nav-wrapper grey lighten-1">
+        <div class="nav-wrapper blue-grey darken-4">
             <!-- Logo da empresa -->
             <label class="">
-                <a class = "logo"  href="index.php"><img src=" img/logo.png" alt="Jelsom"></a>          
+                <a class = "logo"  href="index.php"><img src=" img/logo.png" alt="Dimensão Aços planos"></a>          
             </label>
             <!-- --------------- --> 
 
