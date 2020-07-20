@@ -24,18 +24,6 @@
     </form>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 <?php
     // Include Footer
     include_once 'includes/footer.php'; 

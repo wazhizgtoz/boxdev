@@ -1,14 +1,13 @@
 <?php
 // Conexão com banco de dados
+//$servername = "192.168.1.12";
+//$username = "root";
+//$password = "B0d!w411";
+//$db_name = "cardap";
 
-$servername = "192.168.1.10";
-$username = "root";
-$password = "1234";
-$db_name = "cardap";
-
-   $connect = mysqli_connect($servername, $username, $password, $db_name);
-      if (mysqli_connect_error()):
-         echo "Erro na conexão:".mysqli_connect_error();
-      endif;
+   $connect = mysqli_connect('192.168.1.12', 'root', 'B0d!w411', 'cardap');
+   if (mysqli_connect_error()) {
+      echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
 
 ?>
