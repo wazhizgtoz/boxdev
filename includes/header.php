@@ -16,12 +16,17 @@
     
     <header>
       <nav>
-        <div class="nav-wrapper white">
-          <a href="#" class="brand-logo blue">Logo</a>
+        <div class="nav-wrapper grey lighten-1">
+            <!-- Logo da empresa -->
+            <label class="">
+                <a class = "logo"  href="index.php"><img src=" img/logo.png" alt="Jelsom"></a>          
+            </label>
+            <!-- --------------- --> 
+
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">JavaScript</a></li>
+              <li><a href="opcao.php">Opções</a></li>
+              <li><a href="pessoa.php">Pessoas</a></li>
+              <li><a href="#!">Cardapio</a></li>
             </ul>
         </div>
       </nav>     

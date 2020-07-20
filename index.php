@@ -6,10 +6,14 @@ include_once 'includes/header.php';
 
 <div class='row'>
     <div class='s12 m6 push-m3'>
-    <h2>Solicitação de refeição</h2>
-    <p class = 'light'>Solicite sua refeição</p>
+
+        <h3 class = 'light'>CarDap</h3>
         
-        <a href="add_opcao.php" class = 'btn'>Ver opções</a>
+        <h4>Solicitação de refeição</h4>
+
+        <p class = 'light'>Solicite sua refeição</p>
+        
+        <a href="opcao.php" class = 'btn'>Ver opções</a>
     </div>
 </div>
 
