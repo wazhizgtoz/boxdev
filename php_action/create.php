@@ -7,8 +7,8 @@ if(isset($_POST['btn-cadastrar'])):
 
     $sql = "INSERT INTO opcao(descricao) VALUES('$descricao')";
     if(mysqli_query($connect, $sql)):
-        header('Location: ..index.php?sucesso');
+        header('Location: .opcao.php?sucesso');
     else:
-        header('Location: ..index.php? Error');
+        header('Location: .opcao.php? Error');
     endif;
 endif; 

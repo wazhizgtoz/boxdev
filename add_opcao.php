@@ -7,7 +7,7 @@ include_once 'includes/header.php';
     <div class='s12 m6 push-m3'>
     <h3 class = 'light'>Cadastrar Opção</h3>
 
-    <form action="php_action/add_opcao" methodo="POST">
+    <form action="php_action/create.php" methodo="POST">
         <div class = "input-field col s12">
             <input type="text" name="descricao" id="descricao">
             <label for="opcao">Opcao</label>
