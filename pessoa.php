@@ -34,7 +34,7 @@
             </tbody>
         </table>
         <br>
-        <a href="add_pessoa.php" class = 'btn'>Adicionar pessoa</a>
+        <a href="add_pessoa.php" class = 'btn'> Adicionar pessoa </a>
     </div>
 </div>
 
