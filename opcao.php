@@ -19,14 +19,14 @@ include_once 'includes/header.php';
 
             <tbody>
                 <?php
-                    $sql = "SELECT descricao FROM opcao";
+                    $sql = "SELECT * FROM opcao";
                     $resultado = mysqli_query($connect, $sql);
                     while($dados = mysqli_fetch_array($resultado)):
                 ?>
                 <tr>
                     <td><?php echo $dados['descricao']; ?></td>
 
-                    <td><a href="editar.php?sku_opcao=<?php echo $dados['sku_opcao']; ?>" class ="btn-floating orange"><i class = "material-icons"> edit </i></a></td>
+                    <td><a href="editar_opcao.php?sku_opcao=<?php echo $dados['sku_opcao']; ?>" class ="btn-floating orange"><i class = "material-icons"> edit </i></a></td>
                     <td><a href="" class = "btn-floating red"><i class = "material-icons"> delete </i></a></td>
                 </tr>
                 <?php endwhile; ?>
