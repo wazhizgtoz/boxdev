@@ -22,12 +22,14 @@
             <h3 class = 'light'> Editar Opção </h3>
 
             <form action="php_action/update_opcao.php" method="POST">
+
+                <input type="hidden" name="sku_opcao" value="<?php echo $dados['sku_opcao']; ?>">
                 <div class = "input-field col s12">
                     <input type="text" name="descricao" value="<?php echo $dados['descricao']; ?>" id="descricao" >
                     <label for="descricao"> Descricao </label>
                 </div>
 
-                <button type="submit" name="btn-atualizar" class="btn"> Atualizar </button>
+                <button type="submit" name="btn-editar" class="btn"> Atualizar </button>
                 <a href="opcao.php" class="btn blue"> Listar opções </a>
             </form>
         
