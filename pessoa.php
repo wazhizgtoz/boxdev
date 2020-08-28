@@ -1,5 +1,8 @@
 <?php
-  // Include Header
+    // Conexão com banco
+    include_once 'php_action/db_connect.php'
+
+    // Include Header
     include_once 'includes/header.php';
 ?>
 
@@ -14,23 +17,19 @@
             </thead>
 
             <tbody>
+            <?php
+                $sql = "SELECT * FROM pessoa";
+                $resulado = "mysqli_query($connect, $sql)";
+                while($dados = mysqli_fetch_array($resultado)):
+            ?>
                 <tr>
-                    <td>Fagner Frazão Freitas</td>
+                    <td><?php echo $dados['nome_completo']; ?></td>
                     <td><a href="" class = "btn-floating orange"><i class = "material-icons">edit</i></a></td>
                     <td><a href="" class = "btn-floating red"><i class = "material-icons">delete</i></a></td>
                 </tr>
+            <?php endwhile ?>
 
-                <tr>
-                    <td>Matthew do Espírito Santo</td>
-                    <td><a href="" class = "btn-floating orange"><i class = "material-icons">edit</i></a></td>
-                    <td><a href="" class = "btn-floating red"><i class = "material-icons">delete</i></a></td>
-                </tr>
-
-                <tr>
-                    <td>Pedro Henzo do Espírito Santo</td>
-                    <td><a href="" class = "btn-floating orange"><i class = "material-icons">edit</i></a></td>
-                    <td><a href="" class = "btn-floating red"><i class = "material-icons">delete</i></a></td>
-                </tr>
+             
             </tbody>
         </table>
         <br>
