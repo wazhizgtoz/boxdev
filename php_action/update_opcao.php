@@ -5,16 +5,15 @@ session_start();
 require_once 'db_connect.php';
 
 if(isset($_POST['btn-editar'])):
-    $sku_opcao = mysqli_escape_string($connect, $_POST['sku_opcao']);
-    $descricao = mysqli_escape_string($connect, $_POST['descricao']);   
+    $descricao = mysqli_escape_string($connect, $_POST['descricao']);
+    $sku_opcao = mysqli_escape_string($connect, $_POST['sku_opcao']); 
 
     $sql = "UPDATE opcao SET descricao = '$descricao' WHERE sku_opcao = '$sku_opcao'";
-    
     if(mysqli_query($connect, $sql)):
         $_SESSION['mensagem'] = "Atualizado com sucesso!";
-        header('Location: ../index.php');
+        header('Location: ../opcao.php');
     else:
         $_SESSION['mensagem'] = "Erro ao atualizar";
-        header('Location: ../index.php');
+        header('Location: ../opcao.php');
     endif;
 endif; 

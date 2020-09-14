@@ -8,12 +8,12 @@
     <h3 class='light'>Cadastrar Pessoa</h3>
 
     <form action="">
-        <div class ="input-field col s12">
+        <div class_alias="input-field col s12">
             <input type="text" name="nomeCompleto" id="nomeCompleto">
             <label for="nomeCompleto">Nome Completo</label>
         </div>
 
-        <div class ="input-field col s12">
+        <div class_alias="input-field col s12">
             <input type="text" name="departamento" id="departamento">
             <label for="departamento">Departamento</label>
         </div>
